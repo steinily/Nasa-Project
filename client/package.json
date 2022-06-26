@@ -12,6 +12,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "set BUILD_PATH=../server/public&& react-scripts build",
+    "buildmac": "BUILD_PATH=../server/public react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -35,5 +36,10 @@
   },
   "overrides": {
     "nth-check@1.0.2": "2.0.1"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

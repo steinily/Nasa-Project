@@ -5,6 +5,10 @@ const launchesSchema = new mongoose.Schema({
         type : Number,
         required: true,
     },
+    rocket: {
+        type: String,
+        required: true,
+    },
     launchDate: {
         type: Date,
         required : true,
