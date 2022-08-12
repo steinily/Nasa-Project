@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const MONGO_URL= `mongodb://steinily:samsung@localhost:3000`
+let MONGO_URL="mongodb+srv://admin:ZCsuaTRe4CUKWhoM@cluster0.l9bne.mongodb.net/?retryWrites=true&w=majority"
 
 
 mongoose.connection.once('open', () => {
