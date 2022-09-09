@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-let MONGO_URL="mongodb+srv://admin:ZCsuaTRe4CUKWhoM@cluster0.l9bne.mongodb.net/?retryWrites=true&w=majority"
+let MONGO_URL=process.env.MONGO_URL
 
 
 mongoose.connection.once('open', () => {
