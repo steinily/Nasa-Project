@@ -12,7 +12,12 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "BUILD_PATH=../server/public react-scripts build",
+<<<<<<< HEAD
     "test": "react-scripts test --passWithNoTests",
+=======
+    "buildmac": "BUILD_PATH=../server/public react-scripts build",
+    "test": "react-scripts test",
+>>>>>>> 1382c11349390918274de78ada32d2911828d52e
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
